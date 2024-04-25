@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .black {
+        height: 222px;
+        width: 1333px;
+        background-color: black;
+        position: relative;
+    }
+    .triangle {
+        height: 0;
+        width: 0;
+        border-left: 444.5px solid #ce1126;
+        border-bottom: 333px solid transparent;
+        border-top: 333px solid transparent;
+        z-index: 4;
+    }
+    .white {
+        height: 222px;
+        width: 1333px;
+        background-color: white;
+        z-index: 1;
+    }
+    .green {
+        height: 222px;
+        width: 1333px;
+        background-color: #007a3d;
+    }
+    p {
+      color: white;
+      text-align: right;
+      font-weight: 500;
+      position: absolute;
+      left: 1250px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="black">
+    <p>Palestine Flag</p>
+    <div class="triangle"></div>
+  </div>
+  <div class="white"></div>
+  <div class="green"></div>
+</body>
+
+</html>
